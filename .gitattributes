@@ -1,0 +1,4 @@
+# 统一换行符：仓库内文本用 LF，Windows 批处理用 CRLF（cmd 对 LF 的 .bat 有边界情况）
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf

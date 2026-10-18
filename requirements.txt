@@ -1,0 +1,7 @@
+# PasteMate 依赖列表（建议 Python 3.8+）
+# tkinter 为 Python 标准库自带，无需安装
+
+pynput>=1.7.6      # 全局热键监听（无需管理员权限，比 keyboard 更稳定）
+pyperclip>=1.8.2   # 剪贴板读写
+pystray>=0.19.5    # 系统托盘图标
+Pillow>=10.0.0     # pystray 依赖的图像库（用于程序内绘制托盘图标）
